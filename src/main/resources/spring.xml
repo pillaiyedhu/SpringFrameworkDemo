@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+
+<!--    xml based configurartion................-->
+<!--    <bean id="doctor" class="org.yedhu.Doctor" >-->
+<!--        <property name="qualification" value="MBBS" />-->
+<!--    </bean>-->
+
+<!--    <bean id="nurse" class="org.yedhu.Nurse" />-->
+    <context:component-scan base-package="org.yedhu"></context:component-scan>
+
+</beans>
